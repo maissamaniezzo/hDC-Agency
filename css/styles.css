@@ -1,53 +1,53 @@
 /* Gerais */
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .row {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    padding: 70px 0;
+  padding: 70px 0;
 }
 
 p, li {
-    color: #444;
-    font-size: 14px;
+  color: #444;
+  font-size: 14px;
 }
 
 
 /* Barra de navegação */
 header, .navbar {
-    background-color: #353D41;
-    padding-left: 17px;
-    padding-right: 17px;
+  background-color: #353D41;
+  padding-left: 17px;
+  padding-right: 17px;
 }
 
 #nav-container {
-    padding-top: 0;
-    padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 #logo {
-    width: 75px;
+  width: 75px;
 }
 
 .navbar-brand {
-    padding: 0;
-    color: #fff;
+  padding: 0;
+  color: #fff;
 }
 
 .navbar-brand:hover {
-    color: #fff;
+  color: #fff;
 }
 
 #navbar-links a {
-    color: #fff;
+  color: #fff;
 }
 
 .navbar-expend-lg .navbar-nav .nav-link {
-    padding: 1rem .8rem;
+  padding: 1rem .8rem;
 }
 
 
@@ -354,4 +354,262 @@ header, .navbar {
     margin-left: 30px;
     width: auto;
     letter-spacing: 2px;
+}
+
+
+/* Footer */
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3EC1D5;
+}
+
+.contact-box i {
+    color: #444;
+    border: 1px solid #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #3EC1D5;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover {
+    color: #3EC1D5;
+}
+
+/* Copy */
+#copy-area {
+    background-color: #f1f1f1;
+}
+
+#copy-area .container {
+    padding-bottom: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: #444;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: #3EC1D5;
+}
+
+
+/* Responsivo para tablet */
+@media(max-width: 768px) {
+
+    /* geral */
+    .container {
+        padding: 20px 0;
+    }
+
+    /* Slider */
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: auto;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 28px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .carousel-caption {
+        left: 10%;
+        right: 10%;
+    }
+
+    /* Sobre */
+    #about-area img {
+        margin-top: 100px;
+    }
+
+    /* Dados */
+    .circle-box div {
+        padding: 0 10px;
+    }
+
+    #data-area p {
+        font-size: 16px;
+    }
+
+    /* Time */ 
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    /* Trabalhe conosco */
+    #apply-area .apply-box {
+        padding: 50px 25px;
+    }
+
+    /* Newsletter */
+    #news-area p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #email-input {
+        width: 70%;
+    }
+
+    /* Call to action*/
+    #call-area .container {
+        padding: 30px;
+    }
+
+    #call-area p, #call-area .call-btn {
+        font-size: 16px;
+    }
+
+}
+
+/* Responsivo para celular */
+@media(max-width: 425px) {
+
+    /* Slider */
+    #mainSlider {
+        margin-top: 90px;
+    }
+
+    #mainSlider .carousel-caption {
+        top: 5%;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    #mainSlider .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-caption .main-btn {
+        font-size: 14px;
+    }
+
+
+    /* Sobre */
+    .main-title {
+        font-size: 30px;
+    }
+
+    #about-area img {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    #about-area p {
+        text-align: center;
+    }
+
+    .about-title {
+        text-align: center;
+    }
+
+    /* Dados */
+    .circle-box {
+        width: 50%;
+    }
+
+    /* Time */
+    #team-area .col-md-3 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /* Trabalhe conosco */
+    #apply-area {
+        height: auto;
+    }
+
+    #company-img {
+        display: none;
+    }
+
+    /* Portifólio */
+    #portfolio-area h3 {
+        margin-top: 20px;
+    }
+
+    #portfolio-area .filter-btn {
+        margin-bottom: 20px;
+    }
+
+    .project-box {
+        width: 50%;
+    }
+
+    /* Newsletter */
+    #news-area .main-title {
+        font-size: 24px;
+    }
+
+    #news-area p {
+        font-size: 16px;
+    }
+
+    #email-input {
+        width: 80%;
+    }
+
+    /* Call to action */
+    #call-area p,  #call-area #call-btn {
+        font-size: 14px;
+        letter-spacing: 0;
+        margin: 0;
+        width: 50%;
+    }
+
+    /* Contato */
+    .contact-box {
+        border: none;
+        margin-bottom: 0;
+    }
+
 }
