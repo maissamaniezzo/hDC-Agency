@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="img/hdcagency_logo.svg" >
+    <img src="https://ik.imagekit.io/vbw6dnlwtmt/tr:w-103,h-103,c-force/hdcagency_logo_NddFZhYVO.svg">
 </h1>
 
 # Índice
