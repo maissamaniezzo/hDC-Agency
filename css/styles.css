@@ -432,7 +432,7 @@ header, .navbar {
 
 
 /* Responsivo para tablet */
-@media(max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {  
 
     /* geral */
     .container {
@@ -509,11 +509,15 @@ header, .navbar {
 }
 
 /* Responsivo para celular */
-@media(max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 768px) {
 
     /* Slider */
     #mainSlider {
         margin-top: 90px;
+    }
+
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: auto;
     }
 
     #mainSlider .carousel-caption {
